@@ -124,7 +124,6 @@ a {
   font-size: 18px;
   line-height: 1.8;
   color: var(--muted);
-  /* margin-left: 140px; */
 }
 
 .btnrow {
@@ -140,7 +139,6 @@ a {
   border-radius: 14px;
   background: #fff;
   font-weight: 800;
-  /* margin-left: 410px; */
 }
 .btn.primary {
   background: #000;
@@ -307,6 +305,3 @@ a {
   color: var(--muted);
   padding: 26px 0 10px;
 }
-/* .container.card {
-  max-width: 400px;
-} */
