@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Navya</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="inner"><div class="site-title">Navya's Profile</div></div>
+    </header>
+
+    <div class="container">
+      <div class="navwrap">
+        <nav class="nav">
+          <a class="pill" href="index.html">Profile</a>
+          <a class="pill" href="skills.html">Skills</a>
+          <a class="pill" href="projects.html">Projects</a>
+          <a class="pill" href="experience.html">Experience</a>
+          <a class="pill" href="resume.html">Resume</a>
+          <a class="pill" href="contact.html">Contact</a>
+        </nav>
+      </div>
+
+      <main class="page">
+        <h1 class="section-title">Contact</h1>
+        <p class="sub">Reach me using the details below:</p>
+
+        <div class="projectgrid">
+          <div class="card">
+            <h2 style="margin: 0">Email</h2>
+            <div class="hr"></div>
+            <p class="p" style="margin: 0; max-width: none">
+              <a href="mailto:navyap8590@gmail.com">navyap8590@gmail.com</a>
+            </p>
+          </div>
+
+          <div class="card">
+            <h2 style="margin: 0">Phone</h2>
+            <div class="hr"></div>
+            <p class="p" style="margin: 0; max-width: none">
+              <a href="tel:+918590143393">+91 8590143393</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <div class="footer">© <span id="year"></span> Navya P</div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

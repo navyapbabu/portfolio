@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Navya</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="inner"><div class="site-title">Navya's Profile</div></div>
+    </header>
+
+    <div class="container">
+      <div class="navwrap">
+        <nav class="nav">
+          <a class="pill" href="index.html">Profile</a>
+          <a class="pill" href="skills.html">Skills</a>
+          <a class="pill" href="projects.html">Projects</a>
+          <a class="pill" href="experience.html">Experience</a>
+          <a class="pill" href="resume.html">Resume</a>
+          <a class="pill" href="contact.html">Contact</a>
+        </nav>
+      </div>
+
+      <main class="page">
+        <h1 class="section-title">Projects</h1>
+        <p class="sub">Here are some of the projects I've built:</p>
+
+        <div class="card">
+          <h2 style="margin: 0">Sentrilock</h2>
+          <p class="p" style="margin: 10px 0 0; max-width: none">
+            Smart front door protection using Human Activity Recognition to
+            detect suspicious actions.
+          </p>
+          <div class="tags">
+            <span class="tag">Java</span><span class="tag">MySQL</span
+            ><span class="tag">JavaScript</span>
+          </div>
+          <div class="btnrow" style="justify-content: flex-start">
+            <a
+              class="btn"
+              href="https://github.com/navyapbabu/Front-Door-Security-System"
+              target="_blank"
+              rel="noreferrer"
+              >Live Preview</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <h2 style="margin: 0">Flight Booking System</h2>
+          <p class="p" style="margin: 10px 0 0; max-width: none">
+             A complete flight booking system that allows users to search, book, and manage their flight reservations through a user-friendly interface. The project aims to simplify the booking process and provide a seamless experience for travelers.
+          </p>
+          <div class="tags">
+            <span class="tag">Java</span><span class="tag">MySQL</span><span class="tag">Spring Boot</span>
+          </div>
+          <div class="btnrow" style="justify-content: flex-start">
+            <a
+              class="btn"
+              href="https://github.com/navyapbabu/FlightBookingSystem"
+              target="_blank"
+              rel="noreferrer"
+              >Live Preview</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <h2 style="margin: 0">Hire Us Here</h2>
+          <p class="p" style="margin: 10px 0 0; max-width: none">
+            Application to improve customer–worker communication and strengthen
+            relationship.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span
+            ><span class="tag">JavaScript</span><span class="tag">python</span>
+          </div>
+          <!-- <div class="btnrow" style="justify-content: flex-start">
+            <a class="btn" href="#" target="_blank" rel="noreferrer"
+              >Live Preview</a
+            >
+          </div> -->
+        </div>
+        <!-- <div class="projectgrid">
+          <div class="card">
+            <h2 style="margin: 0">Bank Management Console</h2>
+            <p class="p" style="margin: 10px 0 0; max-width: none"> Console-based banking system with account creation of the account,
+               deposit,withdrawal and balance inquiry.
+            </p>
+            <div class="tags">
+              <span class="tag">Java</span><span class="tag">JDBC</span
+              ><span class="tag">MySQL</span>
+            </div> -->
+            <!-- <div class="btnrow" style="justify-content: flex-start">
+              <a class="btn" href="#" target="_blank" rel="noreferrer"
+                >Live Preview</a
+              > -->
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="footer">© <span id="year"></span> Navya P</div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
