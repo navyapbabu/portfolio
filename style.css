@@ -124,7 +124,7 @@ a {
   font-size: 18px;
   line-height: 1.8;
   color: var(--muted);
-  margin-left: 140px;
+  /* margin-left: 140px; */
 }
 
 .btnrow {
@@ -140,7 +140,7 @@ a {
   border-radius: 14px;
   background: #fff;
   font-weight: 800;
-  margin-left: 410px;
+  /* margin-left: 410px; */
 }
 .btn.primary {
   background: #000;
